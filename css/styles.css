@@ -1,20 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
+html {
+    font-size: 100%;
     box-sizing: border-box;
 }
 
 body {
+    margin: 0px;
+    padding: 0px;
+    min-height: 100vh;
     font-family: 'Libre Franklin', sans-serif;
+    background-color: #1b1b1b;
+    color: #fff;
 }
 
-#page-wrapper {
-    position: relative;
+*, *::before, *::after {
+    box-sizing: inherit;
 }
 
-.container {
-    max-height: fit-content;
+ul {
+    list-style-type: none;
+    margin: 0;
     padding: 0;
+    display: flex;
 }
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav {
+    padding: 10px;
+
+    @media (min-width: 600px) {
+        padding: 20px;
+    }
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
