@@ -77,6 +77,19 @@ a:hover::before {
     background: linear-gradient(to right, red 40%, black 75%);
 }
 
+section {
+    text-align: center;
+    max-width: 85%;
+    margin: auto;
+}
+
+#about {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
 
 /*---- DESKTOP STYLES ----*/
 
@@ -88,5 +101,10 @@ a:hover::before {
 
     #nav-bar {
         justify-content: space-between;
+    }
+
+    section {
+        padding-top: 70px;
+        max-width: 65%;
     }
 }
