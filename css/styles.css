@@ -59,6 +59,24 @@ a {
     position: relative;
 }
 
+a::before {
+    content: "";
+    position: absolute;            
+    height: 3px;
+    right: 0px;
+    bottom: -3px;
+    left: 0px;
+    background-color: red;
+}
+
+a:hover {
+    color: red;             
+}
+
+a:hover::before {
+    background: linear-gradient(to right, red 40%, black 75%);
+}
+
 
 /*---- DESKTOP STYLES ----*/
 
