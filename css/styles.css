@@ -100,6 +100,10 @@ section {
     justify-content: center;
 }
 
+#learn {
+    padding-top: 50px;
+}
+
 
 /*---- DESKTOP STYLES ----*/
 
@@ -135,6 +139,10 @@ section {
     section {
         padding-top: 2rem;
         max-width: 65%;
+    }
+
+    iframe {
+        height: 500px;
     }
 }
 
