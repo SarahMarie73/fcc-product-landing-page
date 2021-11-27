@@ -104,6 +104,15 @@ section {
     padding-top: 50px;
 }
 
+#footer {
+    max-width: 85%;
+    margin: auto;
+}
+
+#footer h5 {
+    text-align: center;
+}
+
 
 /*---- DESKTOP STYLES ----*/
 
