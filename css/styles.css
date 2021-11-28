@@ -113,6 +113,37 @@ section {
     padding-top: 50px;
 }
 
+hr {
+    max-width: 75%;
+    margin: 40px auto;
+}
+
+#email-form {
+    border: 4px solid #f1f1f1;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+input[type=email], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  input[type=submit] {
+    background-color: red;
+    color: white;
+    border: none;
+  }
+  
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }
+
 #footer {
     max-width: 85%;
     margin: auto;
@@ -165,6 +196,11 @@ section {
 
     iframe {
         height: 500px;
+    }
+
+    hr {
+        max-width: 75%;
+        margin: auto;
     }
 }
 
