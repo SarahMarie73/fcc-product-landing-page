@@ -5,6 +5,7 @@ html {
     padding: 0;
     font-size: 100%;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -53,11 +54,6 @@ nav {
     display: flex;
 }
 
-.nav-link {
-    padding-top: 10px;
-    margin: 0 10px;
-}
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -65,6 +61,11 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.nav-links {
+    padding-top: 10px;
+    margin: 0 10px;
 }
 
 a {
@@ -90,6 +91,13 @@ a:hover {
 a:hover::before {
     background: linear-gradient(to right, red 40%, black 75%);
 }
+
+:target {
+    display: block;
+    position: relative;
+    top: -120px; 
+    visibility: hidden;
+  }
 
 #hero-img {
     width: 100%;
@@ -179,7 +187,7 @@ input[type=email], input[type=submit] {
         align-items: center;
     }
 
-    .nav-link {
+    .nav-links {
         padding: 20px;
         margin: 0 1rem;
     }
